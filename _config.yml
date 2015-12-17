@@ -10,8 +10,8 @@ title: Hagatorn
 strapline: Art & Design
 email: contact@hagatorn.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hand-made products and designs from the workshop of Craig Chamberlain.  
-  Establishing the traditions of tomorrow.
+  Hand-made products and designs from the workshop of Craig Chamberlain.
+  "Establishing the traditions of tomorrow."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://hagatorn.com" # the base hostname & protocol for your site
 twitter_username: hagatorn
