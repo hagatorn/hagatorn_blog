@@ -2,18 +2,17 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
+    <h2 class="footer-heading">{{ site.title }}<small> - {{ site.subtitle }}</small></h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
+	<p>{{ site.description }}</p>
+	<p class="strapline"><q>{{ site.strapline }}</q><p>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
+	  <li>Social</li>
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -29,7 +28,10 @@
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+        <ul class="contact-list">
+          <li>Email</li>
+	  <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        </ul>
       </div>
     </div>
 
