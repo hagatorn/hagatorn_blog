@@ -1,0 +1,12 @@
+{% assign type = include.data.type %}
+{% assign name = include.data.name %}
+{% assign text = include.data.text%}
+
+{% capture a %}<span class="name">{{ name }}: </span> {% endcapture %}
+
+<div class="{{ include.type }}">
+	
+	{{ text | prepend: a | markdownify }}
+	
+</div>
+
